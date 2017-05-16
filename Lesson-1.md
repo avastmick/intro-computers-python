@@ -65,20 +65,20 @@
 ```python
 #!/usr/bin/env python
 
-import some_library
-
 def some_function():
     print "Hello World!!"
 
 some_function()
 ```
 
-- Save the file
+- Save the file ``TODO: What tools are available?``
+- Name the file ``HelloWorld.py``
 - Run the file by typing ``python HelloWorld.py``
 - The output will be the same - ``Hello World!!``
-- You may get an error...
+- If you made a mistake, you may get an error...
     + What error did you get and how can you fix them?
     + Example: 
+- Add an error - leave out a quote mark - and see what happens
 
 ```python  
 >>> print "Hello World!
