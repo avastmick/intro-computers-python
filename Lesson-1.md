@@ -14,36 +14,44 @@
 - A few will be able to fix errors in their code
 - Some will add to their code and do more in Python and solve logical problems in the code
 
-# Opening
+# Opening [10- 15]
 
 - Starter question - "What you think is the purpose of a computer?"
     + In pairs, discuss and come up with an answer. [Two minutes]
     + Round table, write on whiteboard answers.
-    + Show how all the answers lead to the right one.
+    + Show how all the answers lead to the right one - **Automation of Work**
 - Follow up question - "Give examples of the oldest computer."
     + In pairs - [two minutes]
     + Round table, write up on whiteboard
     + Neolithic standing stones - they automated the calculations of the seasons for prehistoric people...
     + The abacus - it automates the arithmetic of ancient traders
-    + They have been around a long time!!
+    + Computers have been around a long time!!
 
-# Code (or Software)
-- How do we get computers to work?
-    + Code!!!
+# Code (or Software) [5]
+- How do we get computers to do work?
+    + **Code!!!**
     + Prehistoric people coded in rocks
     + Ancient traders coded in wooden counters on racks
     + Modern people code in text
 - Code is the instructions for how a computer works
     + Code can be written in many languages
 - How many computer languages can you name?
+    + Scratch (You learnt this at school)
+    + JavaScript (Most of the web is coded in this)
+    + C / C++ (Often the basis of other languages)
+    + Java (The most common language in the World)
+    + C# (A common derivative of Java)
+    + Logo (An older version of Scratch, used in schools)
+    + Cobol (Most banks core systems are written in this)
+    + Fortran (NASA still uses this for controlling rockets)
 
-# Hello World
+# Hello World [5]
 
 - When we learn a new computer language we must learn its "syntax" - this tells us what text we must write in order to give instructions to the computer.
 - The first step in any language is to get the computer to say hello.
 - Usually we get the computer to say ``Hello World!``
 
-# Python
+# Python [5-10]
 
 - Today we are going to instruct our computers by writing text in a language called Python
 - Open a terminal on your computer
@@ -57,7 +65,7 @@
 - Python is very powerful - you can do pretty much anything with Python.
 - So, what do you do when you want to write something complicated and use it again?
 
-## Files
+## Files [10]
 
 - You save your work in a file - like you would writing a document in Word or a PPT.
 - The format of a python file looks like this:
@@ -71,7 +79,9 @@ def some_function():
 some_function()
 ```
 
-- Save the file ``TODO: What tools are available?``
+- Open an editor ``TODO: What tools are available?``
+- Add in the code
+- Save the file 
 - Name the file ``HelloWorld.py``
 - Run the file by typing ``python HelloWorld.py``
 - The output will be the same - ``Hello World!!``
@@ -79,6 +89,7 @@ some_function()
     + What error did you get and how can you fix them?
     + Example: 
 - Add an error - leave out a quote mark - and see what happens
+- You may see an error for indentation
 
 ```python  
 >>> print "Hello World!
@@ -91,7 +102,7 @@ SyntaxError: EOL while scanning string literal
 - What else? how about writing out "Hello World!!" 10 times to the screen?
 - Or writing "Hello World!!" and remove a character each time so it disappears..?
 
-## Loops
+## Loops [10]
 
 ```python
 >>> for i in range(1,10):
@@ -133,7 +144,7 @@ for i in range(0,strLth):
     print ''.join(hello)
 ```
 
-# Summary
+# Summary [10]
 
 What have we learnt?
 
@@ -153,4 +164,4 @@ What have we learnt?
 
 ## Notes on Github
 
-<https://github.com/avastmick/intro-computers-python.git>
+<https://github.com/avastmick/intro-computers-python/blob/master/Lesson-1.md>
