@@ -158,4 +158,6 @@ for i in range(0,strLth):
 - ``https://www.codecademy.com/learn/python``
 - ``https://codefights.com``
 
-s
+## Notes on Github
+
+[https://github.com/avastmick/intro-computers-python.git](https://github.com/avastmick/intro-computers-python.git)
