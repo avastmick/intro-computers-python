@@ -98,15 +98,6 @@ SyntaxError: EOL while scanning string literal
 ...     print "Hello World!!"
 ```
 
-## Challenge
-
-If you can solve this you get a prize!!
-
-Why does this code not do what you think?
-
-```python
-
-```
 
 ## String manipulation
 
@@ -144,20 +135,22 @@ for i in range(0,strLth):
 
 # Summary
 
-- What have we learnt?
+What have we learnt?
+
 - What are computers for? - **Automation**
 - How do we control them? - **Code (software)**
-- Introducing *Python*, a simple, but powerful computer language
+- We learnt some *Python*, a simple, but powerful computer language
 - We learnt how to control the computer to say **"Hello World!"**
 - We learnt how to save our instructions (our code) to a file to use again
 - We learnt about errors
+- We looked at some logical problems in code
 
 ## Look up:
 
-- ``http://www.pythonforbeginners.com/``
-- ``https://www.codecademy.com/learn/python``
-- ``https://codefights.com``
+- <http://www.pythonforbeginners.com/>
+- <https://www.codecademy.com/learn/python>
+- <https://codefights.com>
 
 ## Notes on Github
 
-[https://github.com/avastmick/intro-computers-python.git](https://github.com/avastmick/intro-computers-python.git)
+<https://github.com/avastmick/intro-computers-python.git>
