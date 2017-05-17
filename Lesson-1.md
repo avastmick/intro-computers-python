@@ -1,4 +1,8 @@
-# Objectives for today
+# Lesson One (1 hour)
+
+A practical lesson as an introduction to learning Python.
+
+# Objectives
 
 - Understand what computers are for
 - Understand how we can control computers
@@ -9,29 +13,42 @@
 
 ## Class attainment
 
-- All will know that computers automate work and that code instructs a computer
+- **All** will know that computers automate work and that code instructs a computer
 - Most will know how to write simple "Hello World" code in Python and save it to a file to reuse
-- A few will be able to fix errors in their code
-- Some will add to their code and do more in Python and solve logical problems in the code
+- **A few** will be able to fix errors in their code
+- **Some** will add to their code and do more in Python and solve logical problems in the code
 
-# Opening [10- 15]
+# Opening [10 - 15 mins]
 
-- Starter question - "What you think is the purpose of a computer?"
+- Starter question - *"What you think is the purpose of a computer?"*
     + In pairs, discuss and come up with an answer. [Two minutes]
     + Round table, write on whiteboard answers.
     + Show how all the answers lead to the right one - **Automation of Work**
-- Follow up question - "Give examples of the oldest computer."
+    + Computers do work we find boring or are repetitious.
+- Follow up question - *"Give examples of the oldest computers."*
     + In pairs - [two minutes]
     + Round table, write up on whiteboard
-    + Neolithic standing stones - they automated the calculations of the seasons for prehistoric people...
-    + The abacus - it automates the arithmetic of ancient traders
+    + **Neolithic standing stones** - they automated the calculations of the seasons for prehistoric people so they knew when to plant crops or go hunting.
+    + **The abacus** - it automated the arithmetic of ancient traders.
     + Computers have been around a long time!!
 
-# Code (or Software) [5]
-- How do we get computers to do work?
+## The rock computers of the ancients
+
+Neolithic stand stones were actually the first computers humans built. They automated the calculations for when events occurred each year, like when Spring arrived, or when it was the best time to hunt.
+
+![Rock Computer](images/rock-computer.jpg)
+
+## The wooden computers of old traders
+
+The abacus was an old computer used to make difficult trading calculations easier to remember and record.
+
+![Abacus](images/abacus.jpg)
+
+# Code (or Software) [5 mins]
+- How do we get computers to do work for us?
     + **Code!!!**
-    + Prehistoric people coded in rocks
-    + Ancient traders coded in wooden counters on racks
+    + Prehistoric people coded in rocks!
+    + Ancient traders coded in wooden counters in racks!
     + Modern people code in text
 - Code is the instructions for how a computer works
     + Code can be written in many languages
@@ -45,13 +62,13 @@
     + Cobol (Most banks core systems are written in this)
     + Fortran (NASA still uses this for controlling rockets)
 
-# Hello World [5]
+# Hello World [5 mins]
 
 - When we learn a new computer language we must learn its "syntax" - this tells us what text we must write in order to give instructions to the computer.
 - The first step in any language is to get the computer to say hello.
 - Usually we get the computer to say ``Hello World!``
 
-# Python [5-10]
+# Python [5-10 mins]
 
 - Today we are going to instruct our computers by writing text in a language called Python
 - Open a terminal on your computer
@@ -65,7 +82,7 @@
 - Python is very powerful - you can do pretty much anything with Python.
 - So, what do you do when you want to write something complicated and use it again?
 
-## Files [10]
+## Files [10 mins]
 
 - You save your work in a file - like you would writing a document in Word or a PPT.
 - The format of a python file looks like this:
@@ -79,12 +96,18 @@ def some_function():
 some_function()
 ```
 
-- Open an editor ``TODO: What tools are available?``
+- Open an editor - Open Python IDLE (Python GUI)
 - Add in the code
 - Save the file 
 - Name the file ``HelloWorld.py``
-- Run the file by typing ``python HelloWorld.py``
+
+![Editor](images/IDLE-Editor.png)
+
+- Run the file by typing ``python HelloWorld.py`` or hit F5
 - The output will be the same - ``Hello World!!``
+
+![Output](images/Output.png)
+
 - If you made a mistake, you may get an error...
     + What error did you get and how can you fix them?
     + Example: 
@@ -102,7 +125,7 @@ SyntaxError: EOL while scanning string literal
 - What else? how about writing out "Hello World!!" 10 times to the screen?
 - Or writing "Hello World!!" and remove a character each time so it disappears..?
 
-## Loops [10]
+## Loops [10 mins]
 
 ```python
 >>> for i in range(1,10):
@@ -144,7 +167,7 @@ for i in range(0,strLth):
     print ''.join(hello)
 ```
 
-# Summary [10]
+# Summary [5 mins]
 
 What have we learnt?
 
@@ -158,10 +181,14 @@ What have we learnt?
 
 ## Look up:
 
-- <http://www.pythonforbeginners.com/>
+If you enjoyed Python and want to learn more, have a look at the these links:
+
+- <http://www.pythonforbeginners.com/basics>
 - <https://www.codecademy.com/learn/python>
 - <https://codefights.com>
 
 ## Notes on Github
+
+Lesson plan and notes can be found at:
 
 <https://github.com/avastmick/intro-computers-python/blob/master/Lesson-1.md>
