@@ -32,13 +32,13 @@ A practical lesson as an introduction to learning Python.
     + **The abacus** - it automated the arithmetic of ancient traders.
     + Computers have been around a long time!!
 
-## The rock computers of the ancients
+## The rock computers of prehistoric people
 
 Neolithic stand stones were actually the first computers humans built. They automated the calculations for when events occurred each year, like when Spring arrived, or when it was the best time to hunt.
 
 ![Rock Computer](images/rock-computer.jpg)
 
-## The wooden computers of old traders
+## The wooden computers of ancient traders
 
 The abacus was an old computer used to make difficult trading calculations easier to remember and record.
 
