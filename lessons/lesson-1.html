@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <style type="text/css">
+div.sourceCode { overflow-x: auto; }
+table.sourceCode, tr.sourceCode, td.lineNumbers, td.sourceCode {
+  margin: 0; padding: 0; vertical-align: baseline; border: none; }
+table.sourceCode { width: 100%; line-height: 100%; }
+td.lineNumbers { text-align: right; padding-right: 4px; padding-left: 4px; color: #aaaaaa; border-right: 1px solid #aaaaaa; }
+td.sourceCode { padding-left: 5px; }
+code > span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code > span.dt { color: #902000; } /* DataType */
+code > span.dv { color: #40a070; } /* DecVal */
+code > span.bn { color: #40a070; } /* BaseN */
+code > span.fl { color: #40a070; } /* Float */
+code > span.ch { color: #4070a0; } /* Char */
+code > span.st { color: #4070a0; } /* String */
+code > span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code > span.ot { color: #007020; } /* Other */
+code > span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code > span.fu { color: #06287e; } /* Function */
+code > span.er { color: #ff0000; font-weight: bold; } /* Error */
+code > span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+code > span.cn { color: #880000; } /* Constant */
+code > span.sc { color: #4070a0; } /* SpecialChar */
+code > span.vs { color: #4070a0; } /* VerbatimString */
+code > span.ss { color: #bb6688; } /* SpecialString */
+code > span.im { } /* Import */
+code > span.va { color: #19177c; } /* Variable */
+code > span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code > span.op { color: #666666; } /* Operator */
+code > span.bu { } /* BuiltIn */
+code > span.ex { } /* Extension */
+code > span.pp { color: #bc7a00; } /* Preprocessor */
+code > span.at { color: #7d9029; } /* Attribute */
+code > span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code > span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code > span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code > span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/solarized.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="lesson-one" class="slide level1">
+<h1>Lesson One</h1>
+<p>A practical lesson as an introduction to learning Python. (One Hour)</p>
+</section>
+<section id="objectives" class="slide level1">
+<h1>Objectives</h1>
+<ul>
+<li>Understand what computers are for</li>
+<li>Understand how we can control computers</li>
+<li>Show example of how to instruct a computer using python
+<ul>
+<li>&quot;Hello World!!&quot; (standard)</li>
+<li>Loops to output many times (intermediate)</li>
+<li>Strings and manipulation (advanced)</li>
+</ul></li>
+</ul>
+</section>
+<section id="class-attainment" class="slide level1">
+<h1>Class attainment</h1>
+<ul>
+<li><strong>All</strong> will know that computers automate work and that code instructs a computer</li>
+<li>Most will know how to write simple &quot;Hello World&quot; code in Python and save it to a file to reuse</li>
+<li><strong>A few</strong> will be able to fix errors in their code</li>
+<li><strong>Some</strong> will add to their code and do more in Python and solve logical problems in the code</li>
+</ul>
+</section>
+<section id="what-are-computers-for" class="slide level1">
+<h1>What Are Computers For?</h1>
+<p><strong>What you think is the purpose of a computer?</strong></p>
+<ul>
+<li>In pairs, discuss and come up with an answer. [Two minutes]</li>
+<li>One person from each pair write the answers on whiteboard.</li>
+</ul>
+</section>
+<section id="the-answer" class="slide level1">
+<h1>The Answer</h1>
+<p><strong>It's one word</strong></p>
+<ul>
+<li>All the answers lead to the right one</li>
+<li><strong>Automation</strong></li>
+<li>Computers do work we find boring or repetitious.</li>
+</ul>
+</section>
+<section id="how-old" class="slide level1">
+<h1>How Old?</h1>
+<p><strong>Give examples of the oldest computers.</strong></p>
+<ul>
+<li>In pairs again - [two minutes]</li>
+<li>One person from each pair write the answers on whiteboard.</li>
+</ul>
+</section>
+<section id="older-than-you-may-think" class="slide level1">
+<h1>Older than you may think</h1>
+<ul>
+<li><strong>Neolithic standing stones</strong> - tens of thousands of years old.</li>
+<li><strong>The abacus</strong> - thousands of years old.</li>
+<li>Computers have been around a long time!!</li>
+</ul>
+</section>
+<section id="rock-computers" class="slide level1">
+<h1>Rock computers</h1>
+<p>Neolithic stand stones were actually the first computers humans built.</p>
+<p>They automated the calculations of prehistoric people so they knew when to plant crops or go hunting.</p>
+<figure>
+<img src="images/rock-computer.jpg" />
+</figure>
+</section>
+<section id="wood-computers" class="slide level1">
+<h1>Wood computers</h1>
+<p>The abacus was an old computer used to make difficult trading calculations easier to remember and record.</p>
+<figure>
+<img src="images/abacus.jpg" />
+</figure>
+</section>
+<section id="code-or-software" class="slide level1">
+<h1>Code (or Software)</h1>
+<ul>
+<li>How do we get computers to do work for us?
+<ul>
+<li><strong>Code!!!</strong></li>
+<li>Prehistoric people coded in rocks!</li>
+<li>Ancient traders coded in wooden counters in racks!</li>
+<li>Modern people code in text</li>
+</ul></li>
+</ul>
+</section>
+<section id="languages" class="slide level1">
+<h1>Languages</h1>
+<p><strong>Code can be written in many languages</strong></p>
+<ul>
+<li>How many computer languages can you name?</li>
+</ul>
+</section>
+<section id="hello-world" class="slide level1">
+<h1>Hello World</h1>
+<ul>
+<li>When we learn a new computer language we must learn its &quot;syntax&quot;.</li>
+<li>To do this the first step in any language is to get the computer to say hello.</li>
+<li>Usually we get the computer to say <code>Hello World!</code></li>
+<li>It's tradition</li>
+</ul>
+</section>
+<section id="python" class="slide level1">
+<h1>Python</h1>
+<ul>
+<li>Today we are going to instruct our computers by writing text in a language called Python</li>
+</ul>
+</section>
+<section id="start-your-engines" class="slide level1">
+<h1>Start your engines</h1>
+<p>Open Python IDLE (Python Commandline)</p>
+<pre><code>Python 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 20:53:40) [MSC v.1500 64 bit (AMD64)] on win32
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+&gt;&gt;&gt;</code></pre>
+</section>
+<section id="type-in-some-code" class="slide level1">
+<h1>Type in some code</h1>
+<p>Type in:</p>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="op">&gt;&gt;&gt;</span> <span class="bu">print</span> <span class="st">&quot;Hello World!&quot;</span></code></pre></div>
+<p>You should see the computer output:</p>
+<pre><code>Hello World!</code></pre>
+<p><strong>Simple huh?</strong></p>
+</section>
+<section id="python-is-great" class="slide level1">
+<h1>Python is great</h1>
+<ul>
+<li>Python is a very simple computer language</li>
+<li>Python is very efficient</li>
+<li>Python is very powerful - you can do pretty much anything with Python.</li>
+</ul>
+</section>
+<section id="save-code-in-file" class="slide level1">
+<h1>Save code in file</h1>
+<p>So, what do you do when you want to write something complicated and use it again?</p>
+<ul>
+<li>You save your work in a file - like you would writing a document in Word or a PPT.</li>
+<li>The format of a python file looks like this:</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="co">#!/usr/bin/env python</span>
+
+<span class="kw">def</span> some_function():
+    <span class="bu">print</span> <span class="st">&quot;Hello World!!&quot;</span>
+
+some_function()</code></pre></div>
+</section>
+<section id="open-an-editor" class="slide level1">
+<h1>Open an editor</h1>
+<ul>
+<li>Open an editor - Open Python IDLE (Python GUI)</li>
+<li>Add in the code</li>
+<li>Save the file</li>
+<li>Name the file <code>HelloWorld.py</code></li>
+</ul>
+<figure>
+<img src="images/IDLE-Editor.png" />
+</figure>
+</section>
+<section id="run-your-code" class="slide level1">
+<h1>Run your code</h1>
+<ul>
+<li>Run the file by typing <code>python HelloWorld.py</code> or hit F5</li>
+<li>The output will be the same - <code>Hello World!!</code></li>
+</ul>
+<figure>
+<img src="images/Output.png" />
+</figure>
+</section>
+<section id="errors" class="slide level1">
+<h1>Errors</h1>
+<ul>
+<li>If you made a mistake, you may get an error...
+<ul>
+<li>What error did you get and how can you fix them?</li>
+<li>Example:</li>
+</ul></li>
+<li>Add an error - leave out a quote mark - and see what happens</li>
+<li>You may see an error for indentation</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="op">&gt;&gt;&gt;</span> <span class="bu">print</span> <span class="st">&quot;Hello World!</span>
+<span class="st">  File &quot;</span><span class="op">&lt;</span>stdin<span class="op">&gt;</span><span class="st">&quot;, line 1</span>
+<span class="st">    print &quot;</span>Hello World<span class="op">!</span>
+                      <span class="op">^</span>
+<span class="pp">SyntaxError</span>: EOL <span class="cf">while</span> scanning string literal</code></pre></div>
+</section>
+<section id="next" class="slide level1">
+<h1>Next</h1>
+<h2 id="making-the-computer-do-the-work">Making the computer do the work</h2>
+<ul>
+<li>What else? how about writing out &quot;Hello World!!&quot; 10 times to the screen?</li>
+<li>Or writing &quot;Hello World!!&quot; and remove a character each time so it disappears..?</li>
+</ul>
+</section>
+<section id="loops" class="slide level1">
+<h1>Loops</h1>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python"><span class="op">&gt;&gt;&gt;</span> <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>,<span class="dv">10</span>):
+...     <span class="bu">print</span> <span class="st">&quot;Hello World!!&quot;</span></code></pre></div>
+</section>
+<section id="string-manipulation" class="slide level1">
+<h1>String manipulation</h1>
+<ul>
+<li>A String is a list of characters</li>
+<li>&quot;Hello World!!&quot; is a String</li>
+<li>Print out Hello World!! for the number of characters in its string</li>
+<li>Each iteration remove a character so the last iteration is blank</li>
+</ul>
+</section>
+<section id="challenge" class="slide level1">
+<h1>Challenge</h1>
+<p>If you can solve this you get a prize!!</p>
+<ul>
+<li>Why does this code not do what you think?</li>
+<li>You'd think it meets the objective above, but it does not</li>
+<li>Why?</li>
+</ul>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python">hello <span class="op">=</span> <span class="bu">list</span>(<span class="st">&quot;Hello World!!&quot;</span>)
+<span class="cf">for</span> i <span class="kw">in</span> hello:
+    <span class="cf">if</span> i <span class="op">!=</span> hello[<span class="dv">0</span>]:
+        <span class="kw">del</span> hello[<span class="op">-</span><span class="dv">1</span>]
+    <span class="bu">print</span> <span class="st">&#39;&#39;</span>.join(hello)</code></pre></div>
+</section>
+<section id="solution" class="slide level1">
+<h1>Solution</h1>
+<div class="sourceCode"><pre class="sourceCode python"><code class="sourceCode python">hello <span class="op">=</span> <span class="bu">list</span>(<span class="st">&quot;Hello World!!&quot;</span>)
+strLth <span class="op">=</span> <span class="bu">len</span>(hello)
+<span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">0</span>,strLth):
+    <span class="cf">if</span> i <span class="op">!=</span> <span class="dv">0</span>:
+        <span class="kw">del</span> hello[<span class="op">-</span><span class="dv">1</span>]
+    <span class="bu">print</span> <span class="st">&#39;&#39;</span>.join(hello)</code></pre></div>
+</section>
+<section id="summary" class="slide level1">
+<h1>Summary</h1>
+<ul>
+<li>What are computers for? - <strong>Automation</strong></li>
+<li>How do we control them? - <strong>Code (software)</strong></li>
+<li>We learnt some <em>Python</em>, a simple, but powerful computer language</li>
+<li>We learnt how to control the computer to say <strong>&quot;Hello World!&quot;</strong></li>
+<li>We learnt how to save our instructions (our code) to a file to use again</li>
+<li>We learnt about errors and logical problems in code</li>
+</ul>
+</section>
+<section id="look-up" class="slide level1">
+<h1>Look up:</h1>
+<p>If you enjoyed Python and want to learn more, have a look at the these links:</p>
+<ul>
+<li><a href="http://www.pythonforbeginners.com/basics" class="uri">http://www.pythonforbeginners.com/basics</a></li>
+<li><a href="https://www.codecademy.com/learn/python" class="uri">https://www.codecademy.com/learn/python</a></li>
+<li><a href="https://codefights.com" class="uri">https://codefights.com</a></li>
+</ul>
+</section>
+<section id="notes-on-github" class="slide level1">
+<h1>Notes on Github</h1>
+<p>Lesson plan and notes can be found at:</p>
+<p><a href="https://github.com/avastmick/intro-computers-python/blob/master/Lesson-1.md" class="uri">https://github.com/avastmick/intro-computers-python/blob/master/Lesson-1.md</a></p>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+              { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
