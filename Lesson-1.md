@@ -1,94 +1,104 @@
 
-# Lesson One
+# Lesson
+
+## Overview
 
 A practical lesson as an introduction to learning Python. (One Hour)
 
-# Objectives
+## Objectives
 
 - Understand what computers are for
 - Understand how we can control computers
-- Show example of how to instruct a computer using python
+- Learn how to instruct a computer using **Python**
     + "Hello World!!" (standard)
     + Loops to output many times (intermediate)
     + Strings and manipulation (advanced)
 
-# Class attainment
+## Outcomes
 
 - **All** will know that computers automate work and that code instructs a computer
-- Most will know how to write simple "Hello World" code in Python and save it to a file to reuse
+- **Most** will know how to write simple "Hello World" code in Python and save it to a file to reuse
 - **A few** will be able to fix errors in their code
 - **Some** will add to their code and do more in Python and solve logical problems in the code
 
-# What Are Computers For?
 
-**What you think is the purpose of a computer?**
+# Computers
 
-+ In pairs, discuss and come up with an answer. [Two minutes]
+## What is the purpose of a computer?
+
++ In pairs, discuss and come up with an answer. 
+    + [Two minutes]
 + One person from each pair write the answers on whiteboard.
 
-# The Answer
+## The Answer
 
-**It's one word**
-
-+ All the answers lead to the right one
-+ **Automation**
-+ Computers do work we find boring or repetitious.
+- All the answers lead to the right one
+    + **Automation!!**
+    + Computers do work we find boring or repetitious.
 
 
-# How Old?
+## Name the oldest computers.
 
-**Give examples of the oldest computers.**
-
-+ In pairs again - [two minutes]
++ In pairs again
+    + [two minutes]
 + One person from each pair write the answers on whiteboard.
 
-# Older than you may think
+## Older than you may think
 
 + **Neolithic standing stones** - tens of thousands of years old.
 + **The abacus** - thousands of years old.
 + Computers have been around a long time!!
 
-# Rock computers
+## Rock
 
-Neolithic stand stones were actually the first computers humans built. 
-
-They automated the calculations of prehistoric people so they knew when to plant crops or go hunting.
+Neolithic standing stones helped prehistoric people to work out when to plant crops or go hunting.
 
 ![](images/rock-computer.jpg)
 
-# Wood computers
+## Wooden
 
 The abacus was an old computer used to make difficult trading calculations easier to remember and record.
 
 ![](images/abacus.jpg)
 
+
 # Code (or Software) 
-- How do we get computers to do work for us?
-    + **Code!!!**
-    + Prehistoric people coded in rocks!
-    + Ancient traders coded in wooden counters in racks!
-    + Modern people code in text
 
-# Languages
+## How do we get computers to do work for us?
 
-**Code can be written in many languages**
++ **Code!!!**
++ Prehistoric people coded in rocks!
++ Ancient traders coded in wooden counters in racks!
++ Modern people code in text
 
-- How many computer languages can you name?
+## Coding Languages
 
-# Hello World 
+### Code can be written in many languages
+
+How many computer languages can you name?
+
+## Hello World 
 
 - When we learn a new computer language we must learn its "syntax".
 - To do this the first step in any language is to get the computer to say hello.
-- Usually we get the computer to say ``Hello World!``
-- It's tradition
+- It's tradition to get the computer to say ``Hello World!``
 
-# Python 
+-----
 
-- Today we are going to instruct our computers by writing text in a language called Python
+## Practical
 
-# Start your engines
+- Today we are going to use **Python**
+- Python is used a lot in -
+    + Science
+    + Statistics
+    + Medical research
+    + Information Technology
+
+## Start your engines!
 
 Open Python IDLE (Python Commandline)
+
+- Should look like this:
 
 ```
 Python 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 20:53:40) [MSC v.1500 64 bit (AMD64)] on win32
@@ -96,7 +106,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-# Type in some code
+## Type in some code
 
 Type in: 
 
@@ -110,15 +120,16 @@ You should see the computer output:
 Hello World!
 ```
 
-**Simple huh?**
 
-# Python is great
+## Python is great
 
 - Python is a very simple computer language
 - Python is very efficient
 - Python is very powerful - you can do pretty much anything with Python.
 
-# Save code in file 
+-----
+
+## Save code in a file 
 
 So, what do you do when you want to write something complicated and use it again?
 
@@ -126,7 +137,7 @@ So, what do you do when you want to write something complicated and use it again
 - The format of a python file looks like this:
 
 ```python
-#!/usr/bin/env python
+#!/usr/bin/python
 
 def some_function():
     print "Hello World!!"
@@ -134,7 +145,7 @@ def some_function():
 some_function()
 ```
 
-# Open an editor
+## Open an editor
 
 - Open an editor - Open Python IDLE (Python GUI)
 - Add in the code
@@ -143,18 +154,19 @@ some_function()
 
 ![](images/IDLE-Editor.png)
 
-# Run your code
+## Run your code
 
-- Run the file by typing ``python HelloWorld.py`` or hit F5
+- Run the file by clicking ``Run`` 
+- Or hit ``F5``
 - The output will be the same - ``Hello World!!``
 
 ![](images/Output.png)
 
-# Errors
+## Errors
 
 - If you made a mistake, you may get an error...
     + What error did you get and how can you fix them?
-    + Example: 
+        + Look at the error, it will help
 - Add an error - leave out a quote mark - and see what happens
 - You may see an error for indentation
 
@@ -166,14 +178,19 @@ some_function()
 SyntaxError: EOL while scanning string literal
 ```
 
-# Next
+# Make the computer do the work
 
-## Making the computer do the work
+Automation is our goal, let's type less...
 
-- What else? how about writing out "Hello World!!" 10 times to the screen?
-- Or writing "Hello World!!" and remove a character each time so it disappears..?
+----
 
-# Loops 
+## Task
+
+How about writing out "Hello World!!" 10 times?
+
+## Loops 
+
+You'll need a loop for that!
 
 ```python
 >>> for i in range(1,10):
@@ -181,20 +198,57 @@ SyntaxError: EOL while scanning string literal
 ```
 
 
-# String manipulation
+## Task (Hard)
 
-- A String is a list of characters
-- "Hello World!!" is a String
-- Print out Hello World!! for the number of characters in its string
-- Each iteration remove a character so the last iteration is blank
+Print out "Hello World!!" for the number of characters in its string
+
+- There are 13 characters in the String
+- Each iteration (loop) remove a character so the last iteration is blank
+
+## Looks like...
+
+```python
+Hello World!! 
+Hello World!  
+Hello World   
+Hello Worl    
+Hello Wor     
+Hello Wo      
+Hello W       
+Hello         
+Hello         
+Hell          
+Hel           
+He            
+H             
+```
+
+## String manipulation
+
+To do that you need to know a *String* is a list of characters.
+
+- "Hello World!!" is a *String* made up of characters
+- 'H','e','l','l','o',' ','W','o','r','l','d','!','!'
+- This is called a *List* in Python
+- In other languages it is called an *Array*
+
+## Create a List
+
+```python
+hello = list("Hello World!!")
+```
 
 # Challenge
 
+## Prize
+
 If you can solve this you get a prize!!
 
-- Why does this code not do what you think?
-- You'd think it meets the objective above, but it does not
-- Why?
+
+## Logical Code fail
+
+- Why does the following code not do what you think?
+- You'd think it works, but it does not - why?
 
 ```python
 hello = list("Hello World!!")
@@ -204,7 +258,7 @@ for i in hello:
     print ''.join(hello)
 ```
 
-# Solution
+## Solution
 
 ```python
 hello = list("Hello World!!")
@@ -224,7 +278,7 @@ for i in range(0,strLth):
 - We learnt how to save our instructions (our code) to a file to use again
 - We learnt about errors and logical problems in code
 
-# Look up:
+# Look up
 
 If you enjoyed Python and want to learn more, have a look at the these links:
 
@@ -232,8 +286,12 @@ If you enjoyed Python and want to learn more, have a look at the these links:
 - <https://www.codecademy.com/learn/python>
 - <https://codefights.com>
 
-# Notes on Github
+# Thanks!
 
-Lesson plan and notes can be found at:
+Notes on Github...
 
-<https://github.com/avastmick/intro-computers-python/blob/master/Lesson-1.md>
+Lesson plan, examples and notes can be found at:
+
+<https://github.com/avastmick/intro-computers-python>
+
+
