@@ -68,7 +68,7 @@ The abacus was an old computer used to make difficult trading calculations easie
 
 + **Code!!!**
 + Prehistoric people coded in rocks!
-+ Ancient traders coded in wooden counters in racks!
++ Ancient traders coded in wooden counters!
 + Modern people code in text
 
 ## Coding Languages
@@ -98,7 +98,7 @@ How many computer languages can you name?
 
 Open Python IDLE (Python Commandline)
 
-- Should look like this:
+- Should look something like this:
 
 ```
 Python 2.7.13 (v2.7.13:a06454b1afa1, Dec 17 2016, 20:53:40) [MSC v.1500 64 bit (AMD64)] on win32
@@ -125,7 +125,8 @@ Hello World!
 
 - Python is a very simple computer language
 - Python is very efficient
-- Python is very powerful - you can do pretty much anything with Python.
+- Python is very powerful
+- You can do pretty much anything with Python.
 
 -----
 
@@ -228,7 +229,7 @@ H
 To do that you need to know a *String* is a list of characters.
 
 - "Hello World!!" is a *String* made up of characters
-- 'H','e','l','l','o',' ','W','o','r','l','d','!','!'
+- 'H', 'e', 'l', 'l', 'o', ' ', 'W', 'o', 'r', 'l', 'd', '!', '!'
 - This is called a *List* in Python
 - In other languages it is called an *Array*
 
