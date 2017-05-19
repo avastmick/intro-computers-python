@@ -323,6 +323,6 @@ Notes on Github...
 
 Lesson plan, examples and notes can be found at:
 
-<https://github.com/avastmick/intro-computers-python>
+<https://https://avastmick.github.io/intro-computers-python/>
 
 
