@@ -14,13 +14,13 @@ A practical lesson as an introduction to learning Python. (One Hour)
 
 ## Outcomes
 
-- **All** 
+- **All:** 
     + will know that code tells a computer to do work
     + and know what syntax is
-- **Most** 
+- **Most:** 
     + will know how to write simple "Hello World" code in Python
     + and save it to a file to reuse
-- **A few** 
+- **Some:** 
     + will be able to fix errors in their code
     + will add to their code and solve logical problems in the code
 
@@ -37,7 +37,7 @@ A practical lesson as an introduction to learning Python. (One Hour)
 
 - All the answers lead to the right one
     + **Automation!!**
-    + Computers do work we find boring or repetitious.
+    + Computers do work we find boring, repetitious or difficult.
 
 
 ## Name the oldest computers.
@@ -80,9 +80,9 @@ The abacus was an old computer used to make difficult trading calculations easie
 
 These are called programming languages, or computer languages.
 
-How many computer languages can you name?
+How many programming languages can you name?
 
-## Syntax
+## Code Syntax
 
 Each programming language has a set of rules, called **syntax**.
 
