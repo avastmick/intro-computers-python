@@ -1,7 +1,5 @@
 
-# Lesson
-
-## Overview
+## Lesson Overview
 
 A practical lesson as an introduction to learning Python. (One Hour)
 
@@ -16,10 +14,15 @@ A practical lesson as an introduction to learning Python. (One Hour)
 
 ## Outcomes
 
-- **All** will know that computers automate work and that code instructs a computer
-- **Most** will know how to write simple "Hello World" code in Python and save it to a file to reuse
-- **A few** will be able to fix errors in their code
-- **Some** will add to their code and do more in Python and solve logical problems in the code
+- **All** 
+    + will know that code tells a computer to do work
+    + and know what syntax is
+- **Most** 
+    + will know how to write simple "Hello World" code in Python
+    + and save it to a file to reuse
+- **A few** 
+    + will be able to fix errors in their code
+    + will add to their code and solve logical problems in the code
 
 
 # Computers
@@ -75,13 +78,23 @@ The abacus was an old computer used to make difficult trading calculations easie
 
 ### Code can be written in many languages
 
+These are called programming languages, or computer languages.
+
 How many computer languages can you name?
 
-## Hello World 
+## Syntax
+
+Each programming language has a set of rules, called **syntax**.
+
+Syntax defines the structure, symbols, key words and terms used to create instruction sets, or **programmes**.
+
+
+## Hello World! 
 
 - When we learn a new computer language we must learn its "syntax".
-- To do this the first step in any language is to get the computer to say hello.
-- It's tradition to get the computer to say ``Hello World!``
+- The first step in learning any language is to say hello.
+- A programming language is the same
+    + It's tradition to get the computer to say ``Hello World!``
 
 -----
 
@@ -178,6 +191,23 @@ some_function()
                       ^
 SyntaxError: EOL while scanning string literal
 ```
+
+## Indentation
+
+Python **SYNTAX** includes **indentaton**
+
+- This is how the text of the code is laid out
+- One instruction may have a sub-instruction
+- The sub-instruction **must** be indented
+
+```python
+def some_function():
+    print "Hello World!!"
+
+↑↑↑↑ indented four characters of whitespace
+```
+
+Your indentation **MUST** be consistent, or Python will give you an error!
 
 # Make the computer do the work
 
@@ -277,7 +307,7 @@ for i in range(0,strLth):
 - We learnt some *Python*, a simple, but powerful computer language
 - We learnt how to control the computer to say **"Hello World!"**
 - We learnt how to save our instructions (our code) to a file to use again
-- We learnt about errors and logical problems in code
+- We learnt about errors and logical problems
 
 # Look up
 
